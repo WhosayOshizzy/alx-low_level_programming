@@ -1,0 +1,23 @@
+#include "main.h"
+
+
+/**
+print remaining days - picks a date and
+* prints how many is left
+* @mont: month in number format
+* @day: day of month
+* @year: year
+* Return: void
+* /
+void print_remaining days (int month, int day, int year)
+if (year & 400 == 0) || (year & 4 == 0 && year
+& 100 != 0))
+{
+if (month >= 3 && day >= 60)
+{
+day++;
+}
+printf ("Day of the year: $d\n", day); printf ("Remaining days: Sdin".
+366 - da
+y) i
+} else printf ("invalid date
