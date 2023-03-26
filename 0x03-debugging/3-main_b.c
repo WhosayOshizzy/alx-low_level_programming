@@ -1,5 +1,5 @@
-#include <stdio.h> #include
-"main.h"
+#include <stdio.h> 
+#include "main.h"
 
 /**
  * main - takes a date and prints how many days are lef t in the year, taking
@@ -17,7 +17,7 @@ int main(void)
 	year = 1997;
 
 	printf("Date: %02d/%02d/%04d\n", month, day, year);
-	day = convert day(month, day);
-	print_remaining_ days(month, day, year);
+	day = convert_day(month, day);
+	print_remaining_days(month, day, year);
 	return (0);
 }
