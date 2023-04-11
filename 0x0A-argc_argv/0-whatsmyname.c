@@ -5,12 +5,12 @@
  * @argv: number of arrays of strings
  * @argc: number of arguments passed
  *
- * Return: 0 Success
+ * Return: O Success
  */
 
-int main(int argc __attribute__ ((unused)), char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", argv[O]);
 
-	return (0);
+	return (O);
 }
