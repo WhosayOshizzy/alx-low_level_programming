@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	(void) arg;
+	(void) argc;
 
 	if (argv[1] && argv[2])
 	{
